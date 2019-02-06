@@ -1,0 +1,61 @@
+.grid {
+    display: grid;
+    background-color: white;
+    border: 2px blue solid;
+    grid-template: 50px 300px 50px 300px 100px / 1fr 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+    grid-gap: 10px;
+}
+
+.box {
+ 
+}
+
+.header {
+
+}
+
+.right {
+    justify-self: right;
+}
+
+.button {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 3px;
+    color: #2d2d2d;
+    justify-self: center;
+}
+
+.main_logo {
+    grid-area: 2 / 2 / span 1 / span 1;
+    align-self: end;
+    justify-self: center;
+    padding-bottom: 20px;
+
+}
+
+.search_bar {
+    border-radius: 3px;
+    border: 1px #d2d2d2 solid;
+    grid-area: 3 / 2 / span 1 / span 1;
+    box-shadow: 3px 3px #f1f1f1;
+}
+
+.search_buttons {
+    grid-area: 4 / 1 / span 1 / span 3;
+    justify-self: center;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color:#f1f1f1;
+    grid-area: 5 / 1 / span 1 / span 3;
+    border: 1px #d2d2d2 solid;
+}
+
+a {
+    color: #2d2d2d;
+    text-decoration: none;
+    padding: 20px;
+}
